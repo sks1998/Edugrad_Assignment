@@ -1,0 +1,96 @@
+Mandatory Assignment 1
+Guidelines -
+
+The coding needs to be done in Jupyter Notebook (.ipynb) file.
+For submitting your assignment you are required to upload a single zip file containing all the files(code file, data files, etc) related to your solution.
+Save your assignment with example like- (assignment1_yourname.zip)
+Submit your assignment before deadline (please check the website for Submission Date)
+
+
+1) With a given integral number n, write a program to generate a dictionary that contains (i, i*i) such that is an integral number between 1 and n (both included). and then the program should print the dictionary.
+
+
+
+Example -
+
+Input -
+
+8
+
+Output -
+
+{1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64}
+
+
+
+2) Write a Python program which accepts a string which contains the first name and last name sepeaetrd by comma. Print full name on the screen, where first name should be in upper case and llast name in lower case and with a space between them.
+
+Input -
+
+Ravi,Srivastava
+
+Output -
+
+RAVI srivastava
+
+
+
+3) Write a program to check if the age of a student stored in a tuple is greater than 20 or not.
+
+The data stored in the tuple called “student” is the format name, age, qualification, city and values are “Jai”, 20, “Btech”, “Noida”.
+
+Write the code to check the condition -
+
+if the age is greater than 20 print “You are qualified” else print “You are not qualified”
+
+
+
+4) A website requires the users to input username and password to register. Write a program to check the minimum length of password is 6 and maximum length is 15.
+
+Print appropriate messages for each condition.
+
+
+
+Example -
+
+If the following passwords are given as input to the program:
+
+
+
+Password - Message
+
+ABd1234@1 – Password is okay
+
+abc – Password is too short
+
+MyPasswordIsVeryVeryVeryLong – Password is very long
+
+
+
+5) Write a Python program to create the multiplication table (from 1 to 10) of a number.
+
+
+
+Expected Output:
+
+Input a number: 6                                                      
+
+6 x 1 = 6                                                              
+
+6 x 2 = 12                                                             
+
+6 x 3 = 18                                                             
+
+6 x 4 = 24                                                             
+
+6 x 5 = 30                                                             
+
+6 x 6 = 36                                                             
+
+6 x 7 = 42                                                             
+
+6 x 8 = 48                                                             
+
+6 x 9 = 54                                                             
+
+6 x 10 = 60

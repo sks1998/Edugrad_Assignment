@@ -1,0 +1,81 @@
+Mandatory Assignment 8
+General Guidelines:-
+
+Submit the code in a single file (preferrably in ipynb format) along with supporting data files.
+
+
+
+1). Write a Python program to draw a line with suitable label in the x axis, y axis and a title.
+
+Line function is given as
+
+y = 2 + (3 * x)
+
+where x is an integer having values from 1 to 50
+
+
+
+2). Write a Python program to draw line charts of the financial data of Alphabet Inc. between October 3, 2016 to October 11, 2017.
+
+(I) Create the csv file containing the given Financial data (findata.csv):
+
+Date,Open,High,Low,Close
+
+03-10-16,774.25,776.065002,769.5,772.559998
+
+04-10-16,776.030029,778.710022,772.890015,776.429993
+
+05-10-16,779.309998,782.070007,775.650024,776.469971
+
+06-10-16,779,780.47998,775.539978,776.859985
+
+07-10-16,779.659973,779.659973,770.75,775.080017
+
+10-10-17,780.382,777.47998,776.539978,776.859985
+
+11-10-17,778.659973,780.659973,774.75,780.080017
+
+
+
+(II) Fetch data from the created csv file to create the line plots for different values 'Open', 'High', 'Low' and 'Close' values for the given dates.
+
+
+
+3). Write a Python program to create multiple plots in a figure and use them to display the following
+
+
+
+
+
+
+
+Figure 1 would display points corresponding to x1,y1 marked with blue color and * as markers and x2,y2 with red color and outer circle as marker.
+Figure 2 should display line containing x1 and y1 values on x and y axis respectively.
+Figure 3 should exhibit line corresponding to x2 and y2 on x and y-axis.
+Given-
+
+x1 = [2, 3, 5, 6, 8]
+
+y1 = [1, 5, 10, 18, 20]
+
+x2 = [3, 4, 6, 7, 9]
+
+y2 = [2, 6, 11, 20, 22]
+
+
+
+4). Write a Python programming to display a bar chart of the popularity of programming Languages.
+
+Sample data:
+
+Programming languages: Java, Python, PHP, JavaScript, C#, C++
+
+Popularity: 22.2, 17.6, 8.8, 8, 7.7, 6.7
+
+X- axis should display Languages and Y-axis their Popularity. Mark plot with proper x and y label along with title.
+X-axis should display ticks with Language names
+Display Grid on the figure with the following details :- type – major grid, continuous line with width as 1 and red in color
+Create another plot of the same data but bars should be horizontal and each bar consists of a separate color.
+
+
+5). Draw a figure consisting of two circles of diameter 3 units and 4 units respectively using matplotlib. First circle will be filled with yellow color and the second circle with slanting lines. Highlight the center of both with a marker and also annotate with center coordinates having (x,y) values.

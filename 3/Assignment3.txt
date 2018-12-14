@@ -1,0 +1,30 @@
+Mandatory Assignment 3
+General Guidelines -
+
+The coding needs to be done in Jupyter Notebook (.ipynb) file.
+For submitting your assignment you are required to upload a single zip file containing all the files(code file, data files, etc) related to your solution.
+Save your assignment with example like- (assignment3_yourname.zip)
+Submit your assignment before deadline (please check the website for Submission Date)
+
+
+1) Write a Python program to insert an element at the end of a linked list
+
+
+
+2) Write a Python program to implement a stack using a queue
+
+
+
+3) Write a Python program to create a FIFO queue
+
+
+
+4) Write a Python program to sort a list of elements using the bubble sort algorithm
+
+list1 = [80,70,90,40,60,50]
+
+
+
+5) Write a Python program to sort a list of elements using the selection sort algorithm
+
+list1 = [80,70,90,40,60,50]

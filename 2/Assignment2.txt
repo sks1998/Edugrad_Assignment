@@ -1,0 +1,57 @@
+Mandatory Assignment 2
+General Guidelines -
+
+The coding needs to be done in Jupyter Notebook (.ipynb) file.
+For submitting your assignment you are required to upload a single zip file containing all the files(code file, data files, etc) related to your solution.
+Save your assignment with example like- (assignment2_yourname.zip)
+Submit your assignment before deadline (please check the website for Submission Date)
+
+
+Instructions – Submission should include a code file and data files containing the final data for the employees (both permanent and contractual)in the proper format.
+
+
+
+Problem -
+
+In a company named XYZ, employee data is recorded in a spreadsheet called “employee_list.csv”. Few more people have joined this company and their data is stored in a file “new_records.csv”. This data has to be added in the “employee_list.csv” based on following condition -
+
+
+
+1) The format of “employee_list.csv” is
+
+employee code, first name, last name, home city, age, current city
+
+
+
+2) The format of “new_records.csv” is
+
+employee code, full name, home city, age, current city
+
+
+
+3) The employee code column in “new_records.csv” is prefixed by a three digit code related to type of employee as defined below
+
+emp – for permanant employees
+
+other than emp – for contractual and other type of employees
+
+
+
+4) Add only the permanant employees in the employee_list.csv
+
+
+
+5) Create a new separate file for the contractual and other type of employees, file name will be “contractors_list.xlsx”
+
+
+
+6) the employee code recorded in the employee_list.csv will be only integer, you need to remove chracter prefixed to the employee code
+
+
+
+7)handle the file and number-type exceptions whereever appropriate
+
+
+
+
+Attachment given below – new_records.csv and employee_list.csv

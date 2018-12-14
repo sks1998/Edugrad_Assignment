@@ -1,0 +1,107 @@
+Mandatory Assignment 7
+Instructions -
+
+Solve the problems in a single ipynb file
+Please provide the proper numbering and comments in your programs
+Submit your solution in a zip format
+
+
+PART – I
+
+1) Write a Python program to delete the 'attempts' column from the DataFrame
+
+‘exam_data’.
+
+
+
+exam_data = pd.DataFrame( { ‘labels’: ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j'],
+
+'name': [‘Amy’, ‘Dinesh’, 'Kelly', 'Jenny’, 'Vinod', 'Kevin', 'Thor', 'Lisa', 'Kate',
+
+'Simpson'],
+
+'score': [11.5, 7, 16.5, np.nan, 8, 21, 14.5, np.nan, 9, 18],
+
+'attempts': [3, 2, 1, 3, 2, 2, 13, 1, 1, 7] }
+
+)
+
+
+
+2) Create a data frame called “Browser” and reset the index to the list ‘new_index’.
+
+
+
+new_index = [’Iceweasel’, ‘Safari’, ’IE 10?, ’Chrome’, ’Comodo Dragon’]
+
+
+
+
+
+
+
+
+
+3) Write a program using pandas library in Python to display all of the employees who are of age greater than or equal to 68 from the following data?
+
+
+
+
+
+PART – II
+
+4) Find below some of the Data related US army and their related information -
+
+
+
+sample_data = {
+
+'Origin': ['Oregon', 'Wyoming', 'Louisiana', 'Georgia', 'Arizona', 'California', 'Texas', 'Florida',
+
+'Maine', 'Iowa', 'Alaska', 'Washington']
+
+'Regiment' : ['Scouts', 'Scouts', 'Scouts', 'Scouts', 'Nighthawks', 'Nighthawks', 'Nighthawks',
+
+'Nighthawks', 'Dragoons', 'Dragoons', 'Dragoons', 'Dragoons'],
+
+'Company': ['1st', '1st', '2nd', '2nd', '1st', '1st', '2nd', '2nd', '1st', '1st', '2nd', '2nd'],
+
+'Deaths': [62, 73, 37, 35, 523, 52, 25, 616, 43, 234, 523, 62],
+
+'Battles': [4, 7, 8, 9, 5, 42, 2, 2, 4, 7, 8, 3],
+
+'Size': [973, 1005, 1099, 1523, 1045, 957, 1099, 1400, 1592, 1006, 987, 849],
+
+‘Veterans': [48, 435, 63, 345, 1, 5, 62, 26, 73, 37, 949, 48],'Readiness': [2, 1, 2, 3, 1, 2, 3, 3, 2, 1, 2, 3],
+
+'Armored': [0, 0, 1, 1, 1, 0, 1, 1, 0, 1, 0, 1,],
+
+'Deserters': [2, 3, 2, 3, 4, 24, 31, 2, 3, 4, 24, 31],
+
+}
+
+
+
+Based on the above Data perform the following tasks
+
+
+
+1. Create a data frame and assign it to a variable called “Army”.(Include the columns names)
+
+2. Set the 'Origin' column as the index of the data frame
+
+3. Select the 'Regiment', 'Deaths' and 'Size' columns from 'Georgia' and 'Florida', 'California'.
+
+4. Select the rows from 2 to 8 and the columns from 3 to 6
+
+5. Select every row after the third row
+
+6. Select the columns from 4 to 8
+
+7. Select rows where  Battles are greater than 5
+
+8. Select rows where Deaths are greater than 500 or less than 50
+
+9. Select all the regiments except 'Scouts'
+
+10. Select the third cell in the row named 'Alaska'
